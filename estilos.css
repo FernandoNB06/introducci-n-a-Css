@@ -1,19 +1,19 @@
-/* div{
+ div{
     width: 250px;
     height: 250px;
     background-color: orange;
-} */
+} 
 p{
     color: orange;
 }
-/* p::first-line{
+p::first-line{
     color: green;
 }
 
 p::first-letter{
     color: red;
     font-size: 45px;
-} */
+} 
 
 .caja{
     width: 150px;
@@ -39,10 +39,10 @@ p::first-letter{
     background-color:hsl(0, 100%, 50%);
 }
 
-/* *{
+ *{
     color: green;
     font-weight: bolder;
-} */
+} 
 
 #soy_unico{
     width: 250px;
