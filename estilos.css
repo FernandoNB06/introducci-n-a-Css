@@ -63,3 +63,9 @@ button:hover{
 input:disabled{
     background-color: black;
 }
+
+.capibara1,.capibara2,.capibara3{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
