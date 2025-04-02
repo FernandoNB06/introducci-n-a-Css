@@ -1,4 +1,4 @@
- div{
+ /* div{
     width: 250px;
     height: 250px;
     background-color: orange;
@@ -72,4 +72,73 @@ input:disabled{
 
 .padre p{
     color: red;
+} */
+/*Segunda calse*/
+
+p#unico.foo.bar{
+    color: green;
+}
+
+p#unico .foo .bar .baz{
+    color: red !important;
+}
+
+.main{
+
+    color: slateblue;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+.special{
+    color: red;
+    font-weight: bold;
+}
+
+.rectangulo{
+    width: 450px;
+    height: 250px;
+    background-color: darkkhaki;
+}
+
+.caja{
+    width: 50%;
+    height: 250px;
+    background-color: rgb(15,125,36);
+}
+
+.caja-interior{
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+
+}
+
+.caja-interior P{
+    font-size: 4rem;
+}
+
+.ultimo{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+.ultimos{
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    padding: 25px;
+    margin: 25px;
+    border: 12px solid yellow;
+    /* padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-left: 12px solid forestgreen; */
+    /* border-right: 12px solid forestgreen;
+    border-top: 12px solid forestgreen;
+    border-bottom: 12px dashed forestgreen; */
+}
+body{
+    margin: 0;
 }
